@@ -8,10 +8,10 @@ import (
 	"time"
 )
 
-var aviutilPath = "C:/Users/tatsuki/software/aviutl100/aviutl.exe"
-var encordingTargetDirectoryPath = "I:/encodingTarget/"
-var outputDirectoryPath = "I:/encordedFiles/"
-var aucLibPath = "C:/Users/tatsuki/go/src/encode/lib/"
+var aviutilPath = "Path/To/aviutl.exe"
+var encordingTargetDirectoryPath = "Path/To/encodingTargetFolder/"
+var outputDirectoryPath = "Path/To/encordedFilesFolder/"
+var aucLibPath = "Path/To/lib"
 func main() {
 	result, _ := exec.Command(aucLibPath + "auc_exec.exe", aviutilPath).Output()
 /*
